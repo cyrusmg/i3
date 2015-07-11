@@ -175,3 +175,8 @@ bindsym $mod+m         exec xrandr --output HDMI1 --off
 bindsym $mod+shift+m   exec xrandr --output HDMI1 --auto --left-of LVDS1
 bindsym $mod+n         exec xrandr --output VGA1 --off
 bindsym $mod+shift+n   exec xrandr --output VGA1 --auto --left-of LVDS1
+
+# switch to next/previous workspace (left/right)
+bindsym $mod+z workspace prev
+bindsym $mod+x workspace next
+
