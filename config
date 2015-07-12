@@ -148,6 +148,7 @@ bar {
 
 ############################ CUSTOM ####################
 exec --no-startup-id "devmon --no-gui"
+exec --no-startup-id sh ~/.config/i3/fehbg.sh
 
 # Volume
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && killall -SIGUSR1 i3status
